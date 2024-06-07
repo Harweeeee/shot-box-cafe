@@ -1,0 +1,14 @@
+.Landing {
+    height: 500px;
+    background-image: url('./assets/video.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Turbinado Pro Bold';
+    font-size: 70px;
+    text-align: center;
+    padding-top: 90px;
+    text-shadow: 2px 2px #ff0000;
+}
