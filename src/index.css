@@ -1,4 +1,12 @@
 body {
-    background-color: #0f0f0f;
+    background-color: #000000;
     color: #fefefe;
+}
+
+.featureText {
+    font-family: 'Turbinado Pro Bold';
+}
+
+.primaryText {
+    font-family: 'Inter';
 }

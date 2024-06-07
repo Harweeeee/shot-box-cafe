@@ -1,0 +1,41 @@
+.Information {
+    font-size: 18px;
+    margin: 150px 0;
+}
+
+.flexTogether {
+    display: flex;
+    align-items: center;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6f4e37;
+    border-radius: 4px;
+}
+
+i {
+    font-size: 40px !important;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .Information {
+        font-size: 12px;
+    }
+
+    i {
+        font-size: 25px !important;
+    }
+
+    .introductionImage {
+        padding-bottom: 10px;
+    }
+}

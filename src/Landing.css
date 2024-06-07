@@ -1,5 +1,6 @@
-.Landing {
-    height: 500px;
+.Hero {
+    width: 100%;
+    height: 300px;
     background-image: url('./assets/video.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,8 +8,19 @@
 
 h1 {
     font-family: 'Turbinado Pro Bold';
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 70px;
     text-shadow: 2px 2px #ff0000;
+}
+
+@media (max-width: 800px) {
+    .Hero {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding: 30px;
+    }
 }
