@@ -41,11 +41,14 @@ h1 {
 .extraInfo {
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    bottom: 44px;
+    background-color: #fefefe;
+    opacity: 0.6;
     font-size: 30px;
     font-family: 'Inter', sans-serif;
-    padding: 20px 0px;
-    color: #b8a798;
-    font-weight: 100;
+    color: #0e0e0e;
+    font-weight: 200;
 }
 
 .productIcon {
@@ -65,13 +68,13 @@ h1 {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 30px;
         padding: 30px;
     }
 
     .extraInfo {
         font-size: 16px;
-        margin-top: 20px;
+        bottom: 25px;
     }
 
     .productIcon {

@@ -40,4 +40,8 @@ a {
     .introductionImage {
         padding-bottom: 10px;
     }
+
+    .infoContainer {
+        margin-top: 20px;
+    }
 }
