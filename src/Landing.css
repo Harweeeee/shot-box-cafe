@@ -62,7 +62,20 @@ h1 {
     justify-content: center;
 }
 
-@media (max-width: 800px) {
+.attribution {
+    color: grey;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.attLink {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+. @media (max-width: 800px) {
     .Hero {
         height: 150px;
     }

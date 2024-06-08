@@ -46,7 +46,47 @@ export default function Landing() {
             <section id="hireUs">
                 <Contact />
             </section>
-            <footer>Shot Box Cafe, Est 2023</footer>
+            <footer>
+                <span>Shot Box Cafe, Est 2023</span>
+                <div className="attribution">
+                    <span>
+                        Hot icon from{' '}
+                        <a
+                            className="attLink"
+                            href="https://www.freepik.com/?_gl=1*1vg1auh*test_ga*ODkwOTE4MjY5LjE3MDU3Mjk0MTA.*test_ga_523JXC6VL7*MTcxNzgzMzk5NS41LjAuMTcxNzgzMzk5NS42MC4wLjA.*fp_ga*ODkwOTE4MjY5LjE3MDU3Mjk0MTA.*fp_ga_1ZY8468CQB*MTcxNzgzMzk5NS41LjAuMTcxNzgzMzk5NS42MC4wLjA."
+                        >
+                            Freepik
+                        </a>
+                    </span>
+                    <span>
+                        Cold icon from{' '}
+                        <a
+                            className="attLink"
+                            href="https://www.flaticon.com/authors/mikan933"
+                        >
+                            Mikan933, Flaticon
+                        </a>
+                    </span>
+                    <span>
+                        Cookie icon from{' '}
+                        <a
+                            className="attLink"
+                            href="https://www.flaticon.com/authors/iconmarketpk"
+                        >
+                            IconMarketPK, Flaticon
+                        </a>
+                    </span>
+                    <span>
+                        Other icons by{' '}
+                        <a
+                            className="attLink"
+                            href="https://lineicons.com/icons"
+                        >
+                            Lineicons
+                        </a>
+                    </span>
+                </div>
+            </footer>
         </div>
     )
 }

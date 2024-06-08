@@ -66,6 +66,7 @@ export default function Contact() {
                             type="tel"
                             max="10"
                             onChange={(e) => setNumber(e.target.value)}
+                            value={number}
                             required
                         ></input>
                     </div>
