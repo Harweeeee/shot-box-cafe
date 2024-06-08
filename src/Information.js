@@ -38,7 +38,8 @@ export default function Information() {
                             <br />
                             Lions Riverside Park
                             <br />
-                            137-169 Cusack Lane, Jimboomba, QLD, 4280{' '}
+                            137-169 Cusack Lane, Jimboomba, QLD, 4280 <br />
+                            Closed Mondays
                         </p>
                     </div>
                     <div className="col flexTogether">
