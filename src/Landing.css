@@ -31,7 +31,7 @@
 }
 
 h1 {
-    font-family: 'Turbinado Pro Bold';
+    font-family: 'Turbinado Pro Bold', sans-serif;
     font-size: 80px;
     text-align: center;
     padding-top: 90px;
@@ -41,7 +41,7 @@ h1 {
 .extraInfo {
     display: flex;
     justify-content: space-evenly;
-    font-size: 40px;
+    font-size: 38px;
     font-family: 'Inter', sans-serif;
     padding: 20px 0px;
     color: #b8a798;
@@ -61,19 +61,30 @@ h1 {
 
 @media (max-width: 800px) {
     .Hero {
-        height: 200px;
+        height: 150px;
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         padding: 30px;
     }
 
     .extraInfo {
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 20px;
     }
 
     .productIcon {
         width: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .extraInfo {
+        font-weight: 300px;
     }
 }
