@@ -1,0 +1,60 @@
+.contactForm {
+    background-image: url('./assets/coffee-beans.jpg');
+    padding: 50px 3px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 80px;
+    text-decoration: underline dotted;
+    margin: 5px 0 40px 0;
+}
+
+.evenOut {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 4px;
+    width: 300px;
+    opacity: 0.8;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 5px;
+}
+
+.userDetails {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.userMessage {
+    text-align: center;
+    padding: 10px;
+}
+
+.messageInput {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    input {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .userDetails {
+        flex-direction: column;
+        align-items: center;
+    }
+}

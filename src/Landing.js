@@ -1,6 +1,11 @@
 import React from 'react'
 import './Landing.css'
 import Information from './Information'
+import Contact from './Contact'
+import hotcoffee from './assets/hot-coffee.png'
+import colddrink from './assets/iced-coffee.png'
+import snack from './assets/cookie.png'
+import Item from './Item'
 
 export default function Landing() {
     return (
@@ -11,7 +16,7 @@ export default function Landing() {
                     <a href="#information" className="navBtn">
                         Location
                     </a>
-                    <a href="" className="navBtn">
+                    <a href="#hireUs" className="navBtn">
                         Hire Us
                     </a>
                 </div>
@@ -22,9 +27,26 @@ export default function Landing() {
                     <br />- Cafe -
                 </h1>
             </div>
+            <div className="extraInfo">
+                <Item
+                    name="Hot Drinks"
+                    src={hotcoffee}
+                    alt="Icon depicting hot drink"
+                />
+                <Item
+                    name="Cold Drinks"
+                    src={colddrink}
+                    alt="Icon depicting cold drink"
+                />
+                <Item name="Snacks" src={snack} alt="Available snack" />
+            </div>
             <section id="information">
                 <Information />
             </section>
+            <section id="hireUs">
+                <Contact />
+            </section>
+            <footer>Shot Box Cafe, Est 2023</footer>
         </div>
     )
 }

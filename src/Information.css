@@ -1,6 +1,7 @@
 .Information {
     font-size: 18px;
     margin: 150px 0;
+    width: 85%;
 }
 
 .flexTogether {
@@ -12,8 +13,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #6f4e37;
     border-radius: 4px;
+    color: #fefefe;
 }
 
 i {
@@ -29,6 +30,7 @@ a {
 @media (max-width: 800px) {
     .Information {
         font-size: 12px;
+        margin: 90px 0;
     }
 
     i {
